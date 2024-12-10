@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="HOME-PC_SQLSERVER.CreditDW"
+  DTS:DTSID="{84842067-F535-4458-8143-95927A027062}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=HOME-PC\SQLSERVER;Initial Catalog=CreditDW;Provider=SQLOLEDB.1;Integrated Security=SSPI;Auto Translate=False;Application Name=SSIS-test_ssis-{84842067-F535-4458-8143-95927A027062}HOME-PC\SQLSERVER.CreditDW;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
